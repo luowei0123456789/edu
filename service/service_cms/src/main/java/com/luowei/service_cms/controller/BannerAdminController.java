@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
  * @since 2020-03-07
  */
 @RestController
-@RequestMapping("/servicecms/banneradmin")
+@RequestMapping("/educms/banneradmin")
 @CrossOrigin
 public class BannerAdminController {
 
