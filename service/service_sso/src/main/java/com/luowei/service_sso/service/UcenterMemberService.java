@@ -2,6 +2,7 @@ package com.luowei.service_sso.service;
 
 import com.luowei.service_sso.entity.UcenterMember;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.luowei.service_sso.entity.vo.RegisterVo;
 
 /**
  * <p>
@@ -14,4 +15,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface UcenterMemberService extends IService<UcenterMember> {
 
     String login(UcenterMember member);
+
+    void register(RegisterVo registerVo);
 }
