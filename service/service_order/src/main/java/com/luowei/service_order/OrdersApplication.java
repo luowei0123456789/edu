@@ -11,7 +11,8 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableDiscoveryClient
 @ComponentScan(basePackages = {"com.luowei"})
-@MapperScan("com.atguigu.eduorder.mapper")
+@MapperScan("com.luowei.service_order.mapper")
+@EnableFeignClients
 public class OrdersApplication {
 
     public static void main(String[] args) {
