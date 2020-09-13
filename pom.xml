@@ -16,6 +16,7 @@
     <modules>
         <module>comon</module>
         <module>service</module>
+        <module>api-gateway</module>
 
     </modules>
 

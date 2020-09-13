@@ -20,6 +20,7 @@
         <module>service_sso</module>
         <module>service_vod</module>
         <module>service_order</module>
+        <module>service_statistics</module>
     </modules>
 
     <dependencies>
