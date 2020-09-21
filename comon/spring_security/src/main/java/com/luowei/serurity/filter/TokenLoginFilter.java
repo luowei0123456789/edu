@@ -1,12 +1,12 @@
-package com.luowei.security.filter;
+package com.luowei.serurity.filter;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.luowei.R;
 import com.luowei.ResponseUtil;
-import com.luowei.security.entity.SecurityUser;
-import com.luowei.security.entity.User;
-import com.luowei.security.security.TokenManager;
+import com.luowei.serurity.entity.SecurityUser;
+import com.luowei.serurity.entity.User;
+import com.luowei.serurity.security.TokenManager;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

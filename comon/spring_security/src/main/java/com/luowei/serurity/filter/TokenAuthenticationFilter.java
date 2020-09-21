@@ -1,9 +1,9 @@
-package com.luowei.security.filter;
+package com.luowei.serurity.filter;
 
 
 import com.luowei.R;
 import com.luowei.ResponseUtil;
-import com.luowei.security.security.TokenManager;
+import com.luowei.serurity.security.TokenManager;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -3,8 +3,8 @@ package com.luowei.aclservice.service.impl;
 
 import com.luowei.aclservice.service.PermissionService;
 import com.luowei.aclservice.service.UserService;
-import com.luowei.security.entity.SecurityUser;
-import com.luowei.security.entity.User;
+import com.luowei.serurity.entity.SecurityUser;
+import com.luowei.serurity.entity.User;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

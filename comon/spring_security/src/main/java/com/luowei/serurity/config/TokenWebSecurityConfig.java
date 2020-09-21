@@ -1,11 +1,11 @@
-package com.luowei.security.config;
+package com.luowei.serurity.config;
 
-import com.luowei.security.filter.TokenAuthenticationFilter;
-import com.luowei.security.filter.TokenLoginFilter;
-import com.luowei.security.security.DefaultPasswordEncoder;
-import com.luowei.security.security.TokenLogoutHandler;
-import com.luowei.security.security.TokenManager;
-import com.luowei.security.security.UnauthorizedEntryPoint;
+import com.luowei.serurity.filter.TokenAuthenticationFilter;
+import com.luowei.serurity.filter.TokenLoginFilter;
+import com.luowei.serurity.security.DefaultPasswordEncoder;
+import com.luowei.serurity.security.TokenLogoutHandler;
+import com.luowei.serurity.security.TokenManager;
+import com.luowei.serurity.security.UnauthorizedEntryPoint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -79,10 +79,8 @@ public class TokenWebSecurityConfig extends WebSecurityConfigurerAdapter {
      */
     @Override
     public void configure(WebSecurity web) throws Exception {
-//        web.ignoring().antMatchers("/api/**",
-//                "/swagger-resources/**", "/webjars/**", "/v2/**", "/swagger-ui.html/**"
-//               );
-        web.ignoring().antMatchers("/*/**"
-        );
+        web.ignoring().antMatchers("/api/**",
+                "/swagger-resources/**", "/webjars/**", "/v2/**", "/swagger-ui.html/**"
+               );
     }
 }

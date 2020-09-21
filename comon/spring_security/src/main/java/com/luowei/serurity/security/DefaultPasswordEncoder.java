@@ -1,4 +1,4 @@
-package com.luowei.security.security;
+package com.luowei.serurity.security;
 
 import com.luowei.MD5;
 import org.springframework.security.crypto.password.PasswordEncoder;

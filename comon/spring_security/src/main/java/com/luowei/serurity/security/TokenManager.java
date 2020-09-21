@@ -1,4 +1,4 @@
-package com.luowei.security.security;
+package com.luowei.serurity.security;
 
 import io.jsonwebtoken.CompressionCodecs;
 import io.jsonwebtoken.Jwts;

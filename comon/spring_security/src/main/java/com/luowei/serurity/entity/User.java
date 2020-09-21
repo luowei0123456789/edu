@@ -1,4 +1,4 @@
-package com.luowei.security.entity;
+package com.luowei.serurity.entity;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
